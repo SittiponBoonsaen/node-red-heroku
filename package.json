@@ -11,9 +11,4 @@
         "lodash": "~4.x",
         "@line/bot-sdk": "^7.4.0"
    }
-  "node-red": {
-    "nodes": {
-      "line-notify": "./nodes/line-notify.js"
-    }
-  },
 }

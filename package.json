@@ -8,12 +8,5 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "~2.x",
-        "lodash": "~4.x"
-    }
-    "keywords": ["node-red","line"],
-    "node-red": {
-        "nodes": {
-          "line-notify": "./nodes/line-notify.js"
-       }
     }
 }

@@ -1,45 +1,13 @@
 {
     "name"         : "node-red-heroku",
-    "version"      : "2.2.2",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/node-red/node-red.git"
-    },
-    "main": "lib/red.js",
-    "scripts": {
-        "start": "node red.js"
-    },
-    "bin": {
-        "node-red": "./red.js",
-        "node-red-pi": "bin/node-red-pi"
-    },
-    "contributors": [
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "Dave Conway-Jones"
-        }
-    ],
-    "keywords": [
-        "editor",
-        "messaging",
-        "iot",
-        "flow"
-    ],
+    "version"      : "0.0.2",
     "dependencies": {
+        "when": "~3.x",
+        "pg": "^8.3.0",
+        "nano": "~5.11.0",
+        "feedparser":"~0.19.2",
+        "redis":"~0.10.1",
         "node-red": "~2.x",
-        "@node-red/editor-api": "2.2.2",
-        "@node-red/runtime": "2.2.2",
-        "@node-red/util": "2.2.2",
-        "@node-red/nodes": "2.2.2",
-        "basic-auth": "2.0.1",
-        "bcryptjs": "2.4.3",
-        "express": "4.17.2",
-        "fs-extra": "10.0.0",
-        "node-red-admin": "^2.2.3",
-        "nopt": "5.0.0",
-        "semver": "7.3.5"
+        "lodash": "~4.x"
     }
 }

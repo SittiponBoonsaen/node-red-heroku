@@ -25,4 +25,10 @@
         "nopt": "5.0.0",
         "semver": "7.3.5"
     }
+    "optionalDependencies": {
+        "bcrypt": "5.0.1"
+    },
+    "engines": {
+        "node": ">=12"
+    }
 }

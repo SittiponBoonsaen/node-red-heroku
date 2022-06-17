@@ -1,6 +1,11 @@
 {
     "name"         : "node-red-heroku",
     "version"      : "2.2.2",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/node-red/node-red.git"
+    },
     "dependencies": {
         "when": "~3.x",
         "pg": "^8.3.0",

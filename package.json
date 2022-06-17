@@ -1,6 +1,7 @@
 {
     "name"         : "node-red-heroku",
-    "version"      : "0.0.2",
+    "version"      : "2.2.2",
+    "license": "Apache-2.0",
     "dependencies": {
         "when": "~3.x",
         "pg": "^8.3.0",

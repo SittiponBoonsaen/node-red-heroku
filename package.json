@@ -9,5 +9,6 @@
         "redis":"~0.10.1",
         "node-red": "~2.x",
         "lodash": "~4.x"
+        "node-red-contrib-line-messaging-api":"git+https://github.com/wamisnet/node-red-contrib-line-messaging-api.git"
     }
 }

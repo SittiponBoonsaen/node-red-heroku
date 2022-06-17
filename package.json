@@ -12,7 +12,11 @@
         "lodash": "~4.x",
         "node-red-contrib-line-notify":"git+https://github.com/okhiroyuki/node-red-contrib-line-notify.git",
         "node-red-contrib-node-line-api": "0.8.5",
-        "node-red-contrib-line-messaging-api": "0.1.11"
+        "node-red-contrib-line-messaging-api": "0.1.11",
+        "node-red-contrib-re-postgres": "0.3.3"
+    },
+    "engines": {
+         "node": "^12.0.0 || ^14.19.0 || >=16.0.0"
     },
 }
 

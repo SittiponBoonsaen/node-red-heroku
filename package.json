@@ -16,7 +16,8 @@
         "node-red-node-rbe": "0.5.0",
         "node-red-contrib-re-postgres": "0.3.3",
         "node-red-node-tail": "0.3.2",
-        "node-red-contrib-cheerio": "1.1.0"
+        "node-red-contrib-cheerio": "1.1.0",
+        "node-red-contrib-linebot": "1.0.9"
     },
     "engines": {
         "node": ">=12"

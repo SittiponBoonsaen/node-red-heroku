@@ -56,7 +56,7 @@ var settings = module.exports = {
     credentialSecret: false
 }
 
-if (process.env.NODE_RED_USERNAME || process.env.NODE_RED_PASSWORD) {
+if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
     settings.adminAuth = {
         type: "credentials",
         users: function(username) {
